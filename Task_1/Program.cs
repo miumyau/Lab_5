@@ -1,10 +1,11 @@
 ﻿namespace Task_1;
-
+//Сформировать одномерный массив из 7 элементов. Заполнить массив числами,
+//вводимыми с клавиатуры, определить среднее арифметическое элементов.
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Введите число");
     }
 }
 
