@@ -3,7 +3,7 @@
 //вводимыми с клавиатуры, определить среднее арифметическое элементов.
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) 
     {
         double [] array = new double[7];
         double S = 0;
