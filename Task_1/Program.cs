@@ -5,7 +5,20 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Введите число");
+        double [] array = new double[7];
+        double S = 0;
+        int n=0;
+        for (int i = 0; i < 7; i++)
+        {
+            Console.WriteLine("Введите число");
+            array[i] = Convert.ToDouble(Console.ReadLine());
+            S += array[i];
+            n++;
+        }
+        double S1 = S/n;
+        Console.WriteLine("среднее арифметическое элементов {0:f2}", S1);
+        Console.ReadKey();
+
     }
 }
 
